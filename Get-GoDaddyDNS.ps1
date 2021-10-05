@@ -42,6 +42,7 @@ function Get-GoDaddyDNS
                 name = $item.name
                 ttl  = $item.ttl
                 type = $item.type
+                priority = $item.priority
             }
         }
     }
